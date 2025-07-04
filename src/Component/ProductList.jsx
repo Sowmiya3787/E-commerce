@@ -8,9 +8,9 @@ const ProductList = () => {
   const [filteredProducts,setFilteredProducts] = useState(allproducts);
 
 
-  const displayProduct = (id) => {
-    navigate(`/Product/${id}`);
-  };
+  // const displayProduct = (id) => {
+  //   navigate(`/Product/${id}`);
+  // };
 const onAddtocart = (product)=>{
   navigate('/Cart',{state :{product}});
 }
